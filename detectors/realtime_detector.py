@@ -16,7 +16,7 @@ print("[*] Starting real-time log monitoring...")
 print("[*] Watching /var/log/auth.log\n")
 
 with open(LOG_FILE, "r") as logfile:
-    logfile.seek(0, 2)  # Move to end of file
+    logfile.seek(0, 2)  # Move to end of fil
 
     while True:
         line = logfile.readline()
@@ -25,7 +25,6 @@ with open(LOG_FILE, "r") as logfile:
             time.sleep(0.5)
             continue
 
-        # ---- SUDO AUTH FAILURE ----
         if "sudo" in line and "authentication failure" in line:
             user_match = re.search(r"user\s+(\w+)", line)
             user = user_match.group(1) if user_match else "unknown"
@@ -47,7 +46,6 @@ with open(LOG_FILE, "r") as logfile:
                 with open("alerts.json", "a") as f:
                     f.write(json.dumps(alert) + "\n")
 
-        # ---- SSH FAILED PASSWORD ----
         if "Failed password" in line:
             ip_match = re.search(r"from (\d+\.\d+\.\d+\.\d+)", line)
             if ip_match:
@@ -70,7 +68,6 @@ with open(LOG_FILE, "r") as logfile:
                     with open("alerts.json", "a") as f:
                         f.write(json.dumps(alert) + "\n")
 
-        # ---- SSH SUCCESS AFTER FAILURES ----
         if "Accepted password" in line:
             ip_match = re.search(r"from (\d+\.\d+\.\d+\.\d+)", line)
             user_match = re.search(r"for (\w+)", line)
