@@ -52,13 +52,6 @@ The project simulates how **real SOC analysts and SIEM tools** detect brute-forc
 * Technique: **T1548 – Abuse Elevation Control Mechanism**
 
 
-## 🏗️ Architecture
-
-```
-<img width="456" height="797" alt="image" src="https://github.com/user-attachments/assets/0c27fbab-7570-4a9a-b651-46c9f829afac" />
-
-```
-
 ---
 
 ## Tech Stack
@@ -99,8 +92,7 @@ soc-log-analysis-incident-detection/
 ├── screenshots/
 │   └── realtime-alerts.png
 │
-├── requirements.txt
-└── .gitignore
+└──  requirements.txt
 ```
 
 ---
@@ -132,7 +124,7 @@ soc-log-analysis-incident-detection/
 
 ---
 
-## ⏱️ Real-Time Monitoring (tail -f Style)
+## Real-Time Monitoring (tail -f Style)
 
 The system uses a **file pointer technique** to monitor logs in real time:
 
@@ -226,4 +218,5 @@ This will:
 ## Author
 **Avdhut Gogawale**
 Cybersecurity Enthusiast 
+
 
