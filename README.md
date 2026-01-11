@@ -55,22 +55,13 @@ The project simulates how **real SOC analysts and SIEM tools** detect brute-forc
 ## 🏗️ Architecture
 
 ```
-User Login / SSH / sudo Activity
-              ↓
-       /var/log/auth.log
-              ↓
-   Real-Time Python Log Detector
-              ↓
-     Correlation & Detection Engine
-              ↓
-      SIEM-Style JSON Alerts
-              ↓
-        SOC Analyst Review
+<img width="456" height="797" alt="image" src="https://github.com/user-attachments/assets/0c27fbab-7570-4a9a-b651-46c9f829afac" />
+
 ```
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Operating System:** Ubuntu (WSL 2)
 - **Programming Language:** Python 
@@ -84,7 +75,7 @@ User Login / SSH / sudo Activity
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 ```
 soc-log-analysis-incident-detection/
@@ -213,7 +204,7 @@ This will:
 - No real user data or production systems were affected
 - Sample logs are sanitized for privacy
 
-* Skills Demonstrated
+## Skills Demonstrated
 
 - SOC operations & detection logic
 - Linux log analysis
@@ -224,7 +215,7 @@ This will:
 - Real-time security monitoring
 
 
-* Future Enhancements
+## Future Enhancements
 
 - Alert deduplication & cooldown
 - Geo-IP enrichment
@@ -232,7 +223,7 @@ This will:
 - Email / webhook alerting
 - ELK / Splunk integration
 
-*Author
-
+## Author
 **Avdhut Gogawale**
 Cybersecurity Enthusiast 
+
