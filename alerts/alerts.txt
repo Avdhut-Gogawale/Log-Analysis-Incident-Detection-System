@@ -1,0 +1,2 @@
+[ALERT] Multiple sudo authentication failures for user 'unknown' (5 attempts)
+[ALERT] SSH brute-force attack detected from IP 127.0.0.1 (6 failed attempts)

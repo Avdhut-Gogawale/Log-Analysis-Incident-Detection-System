@@ -1,0 +1,50 @@
+2026-01-11T06:18:53.093924+00:00 LAPTOP-E57H2M85 login[582]: PAM unable to dlopen(pam_lastlog.so): /usr/lib/security/pam_lastlog.so: cannot open shared object file: No such file or directory
+2026-01-11T06:18:53.094108+00:00 LAPTOP-E57H2M85 login[582]: PAM adding faulty module: pam_lastlog.so
+2026-01-11T06:18:53.447526+00:00 LAPTOP-E57H2M85 login[582]: pam_unix(login:session): session opened for user avdhut(uid=1000) by avdhut(uid=0)
+2026-01-11T06:18:53.494159+00:00 LAPTOP-E57H2M85 systemd-logind[197]: New session 1 of user avdhut.
+2026-01-11T06:18:53.507345+00:00 LAPTOP-E57H2M85 (systemd): pam_unix(systemd-user:session): session opened for user avdhut(uid=1000) by avdhut(uid=0)
+2026-01-11T06:19:09.823321+00:00 LAPTOP-E57H2M85 sudo: pam_unix(sudo:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/0 ruser=avdhut rhost=  user=avdhut
+2026-01-11T06:19:26.769718+00:00 LAPTOP-E57H2M85 sudo:   avdhut : 3 incorrect password attempts ; TTY=pts/0 ; PWD=/home/avdhut ; USER=root ; COMMAND=/usr/bin/apt update
+2026-01-11T06:19:52.616835+00:00 LAPTOP-E57H2M85 sudo: pam_unix(sudo:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/0 ruser=avdhut rhost=  user=avdhut
+2026-01-11T06:21:54.189591+00:00 LAPTOP-E57H2M85 sudo:   avdhut : 3 incorrect password attempts ; TTY=pts/0 ; PWD=/home/avdhut ; USER=root ; COMMAND=/usr/bin/apt update
+2026-01-11T06:22:54.791971+00:00 LAPTOP-E57H2M85 systemd-logind[188]: New seat seat0.
+2026-01-11T06:24:41.706674+00:00 LAPTOP-E57H2M85 login[569]: PAM unable to dlopen(pam_lastlog.so): /usr/lib/security/pam_lastlog.so: cannot open shared object file: No such file or directory
+2026-01-11T06:24:41.706766+00:00 LAPTOP-E57H2M85 login[569]: PAM adding faulty module: pam_lastlog.so
+2026-01-11T06:22:56.953888+00:00 LAPTOP-E57H2M85 login[569]: pam_unix(login:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-11T06:22:57.000474+00:00 LAPTOP-E57H2M85 systemd-logind[188]: New session 1 of user root.
+2026-01-11T06:22:57.025353+00:00 LAPTOP-E57H2M85 (systemd): pam_unix(systemd-user:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-11T06:22:57.249095+00:00 LAPTOP-E57H2M85 login[678]: ROOT LOGIN  on '/dev/pts/1'
+2026-01-11T06:25:01.801448+00:00 LAPTOP-E57H2M85 CRON[701]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-01-11T06:25:01.824765+00:00 LAPTOP-E57H2M85 CRON[701]: pam_unix(cron:session): session closed for user root
+2026-01-11T06:23:59.539445+00:00 LAPTOP-E57H2M85 passwd[721]: pam_unix(passwd:chauthtok): password changed for avdhut
+2026-01-11T06:24:20.332215+00:00 LAPTOP-E57H2M85 login[744]: PAM unable to dlopen(pam_lastlog.so): /usr/lib/security/pam_lastlog.so: cannot open shared object file: No such file or directory
+2026-01-11T06:24:20.332533+00:00 LAPTOP-E57H2M85 login[744]: PAM adding faulty module: pam_lastlog.so
+2026-01-11T06:24:20.598258+00:00 LAPTOP-E57H2M85 login[744]: pam_unix(login:session): session opened for user avdhut(uid=1000) by avdhut(uid=0)
+2026-01-11T06:24:20.633315+00:00 LAPTOP-E57H2M85 systemd-logind[188]: New session 4 of user avdhut.
+2026-01-11T06:24:20.649162+00:00 LAPTOP-E57H2M85 (systemd): pam_unix(systemd-user:session): session opened for user avdhut(uid=1000) by avdhut(uid=0)
+2026-01-11T06:24:35.708524+00:00 LAPTOP-E57H2M85 sudo:   avdhut : TTY=pts/0 ; PWD=/home/avdhut ; USER=root ; COMMAND=/usr/bin/apt update
+2026-01-11T06:24:35.709298+00:00 LAPTOP-E57H2M85 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+2026-01-11T06:24:41.774426+00:00 LAPTOP-E57H2M85 polkitd[1117]: Loading rules from directory /etc/polkit-1/rules.d
+2026-01-11T06:24:41.775194+00:00 LAPTOP-E57H2M85 polkitd[1117]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-01-11T06:24:41.781430+00:00 LAPTOP-E57H2M85 polkitd[1117]: Finished loading, compiling and executing 4 rules
+2026-01-11T06:24:41.783426+00:00 LAPTOP-E57H2M85 polkitd[1117]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2026-01-11T06:24:47.442528+00:00 LAPTOP-E57H2M85 sudo: pam_unix(sudo:session): session closed for user root
+2026-01-11T06:24:47.449253+00:00 LAPTOP-E57H2M85 sudo:   avdhut : TTY=pts/0 ; PWD=/home/avdhut ; USER=root ; COMMAND=/usr/bin/apt upgrade -y
+2026-01-11T06:24:47.450055+00:00 LAPTOP-E57H2M85 sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+2026-01-11T06:25:25.661895+00:00 LAPTOP-E57H2M85 polkitd[1117]: Reloading rules
+2026-01-11T06:25:25.662047+00:00 LAPTOP-E57H2M85 polkitd[1117]: Collecting garbage unconditionally...
+2026-01-11T06:25:25.662080+00:00 LAPTOP-E57H2M85 polkitd[1117]: Loading rules from directory /etc/polkit-1/rules.d
+2026-01-11T06:25:25.662137+00:00 LAPTOP-E57H2M85 polkitd[1117]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-01-11T06:25:25.663407+00:00 LAPTOP-E57H2M85 polkitd[1117]: Finished loading, compiling and executing 4 rules
+2026-01-11T06:25:25.663496+00:00 LAPTOP-E57H2M85 polkitd[1117]: Reloading rules
+2026-01-11T06:25:25.663525+00:00 LAPTOP-E57H2M85 polkitd[1117]: Collecting garbage unconditionally...
+2026-01-11T06:25:25.663571+00:00 LAPTOP-E57H2M85 polkitd[1117]: Loading rules from directory /etc/polkit-1/rules.d
+2026-01-11T06:25:25.663594+00:00 LAPTOP-E57H2M85 polkitd[1117]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-01-11T06:25:25.664978+00:00 LAPTOP-E57H2M85 polkitd[1117]: Finished loading, compiling and executing 4 rules
+2026-01-11T06:25:43.258028+00:00 LAPTOP-E57H2M85 polkitd[1117]: Reloading rules
+2026-01-11T06:25:43.258245+00:00 LAPTOP-E57H2M85 polkitd[1117]: Collecting garbage unconditionally...
+2026-01-11T06:25:43.258280+00:00 LAPTOP-E57H2M85 polkitd[1117]: Loading rules from directory /etc/polkit-1/rules.d
+2026-01-11T06:25:43.258309+00:00 LAPTOP-E57H2M85 polkitd[1117]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-01-11T06:25:43.260610+00:00 LAPTOP-E57H2M85 polkitd[1117]: Finished loading, compiling and executing 4 rules
+2026-01-11T06:25:43.260746+00:00 LAPTOP-E57H2M85 polkitd[1117]: Reloading rules
+2026-01-11T06:25:43.260818+00:00 LAPTOP-E57H2M85 polkitd[1117]: Collecting garbage unconditionally...

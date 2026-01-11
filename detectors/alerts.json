@@ -1,0 +1,30 @@
+[
+    {
+        "timestamp": "2026-01-11T14:36:59.234068+00:00",
+        "alert_type": "Privilege Escalation Attempt",
+        "severity": "MEDIUM",
+        "user": "unknown",
+        "count": 6,
+        "technique": "T1548",
+        "description": "Multiple sudo authentication failures detected"
+    },
+    {
+        "timestamp": "2026-01-11T14:36:59.234090+00:00",
+        "alert_type": "SSH Brute Force",
+        "severity": "HIGH",
+        "source_ip": "127.0.0.1",
+        "count": 21,
+        "technique": "T1110",
+        "description": "Multiple failed SSH login attempts detected"
+    },
+    {
+        "timestamp": "2026-01-11T14:36:59.234095+00:00",
+        "alert_type": "Account Compromise Suspected",
+        "severity": "CRITICAL",
+        "source_ip": "127.0.0.1",
+        "user": "avdhut",
+        "failed_attempts": 21,
+        "technique": "T1110",
+        "description": "Successful SSH login after multiple failed attempts"
+    }
+]

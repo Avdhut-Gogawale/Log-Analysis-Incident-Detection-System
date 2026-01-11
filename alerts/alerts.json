@@ -1,0 +1,32 @@
+[
+    {
+        "timestamp": "2026-01-11T10:03:34.802783+00:00",
+        "alert_type": "Privilege Escalation Attempt",
+        "severity": "MEDIUM",
+        "user": "unknown",
+        "count": 5,
+        "technique": "T1548",
+        "description": "Multiple sudo authentication failures detected"
+    },
+    {
+        "timestamp": "2026-01-11T10:03:34.802813+00:00",
+        "alert_type": "SSH Brute Force",
+        "severity": "HIGH",
+        "source_ip": "127.0.0.1",
+        "count": 9,
+        "technique": "T1110",
+        "description": "Multiple failed SSH login attempts detected"
+    },
+    {
+        "timestamp": "2026-01-11T10:03:34.802819+00:00",
+        "alert_type": "Account Compromise Suspected",
+        "severity": "CRITICAL",
+        "source_ip": "127.0.0.1",
+        "user": "avdhut",
+        "failed_attempts": 9,
+        "technique": "T1110",
+        "description": "Successful SSH login after multiple failed attempts"
+    }
+]{"timestamp": "2026-01-11T10:14:45.193051+00:00", "alert_type": "SSH Brute Force", "severity": "HIGH", "source_ip": "127.0.0.1", "count": 5, "technique": "T1110", "description": "Multiple failed SSH login attempts detected"}
+{"timestamp": "2026-01-11T10:14:49.689455+00:00", "alert_type": "SSH Brute Force", "severity": "HIGH", "source_ip": "127.0.0.1", "count": 6, "technique": "T1110", "description": "Multiple failed SSH login attempts detected"}
+{"timestamp": "2026-01-11T10:14:59.699087+00:00", "alert_type": "Account Compromise Suspected", "severity": "CRITICAL", "source_ip": "127.0.0.1", "user": "avdhut", "failed_attempts": 6, "technique": "T1110", "description": "Successful SSH login after multiple failed attempts"}
