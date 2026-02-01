@@ -89,9 +89,6 @@ soc-log-analysis-incident-detection/
 ├── logs/
 │   └── sample_auth.log
 │
-├── screenshots/
-│   └── realtime-alerts.png
-│
 └──  requirements.txt
 ```
 
@@ -219,6 +216,7 @@ This will:
 **Avdhut Gogawale**
 <br>
 Cybersecurity Enthusiast 
+
 
 
 
