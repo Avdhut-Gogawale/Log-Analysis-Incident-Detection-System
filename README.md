@@ -143,7 +143,7 @@ This mimics how **SIEM agents stream logs**.
 2. Clone Repository
 
 ```bash
-git clone https://github.com/<your-username>/soc-log-analysis-incident-detection.git
+git clone https://github.com/Avdhut-Gogawale/soc-log-analysis-incident-detection.git
 cd soc-log-analysis-incident-detection
 ```
 
@@ -216,6 +216,7 @@ This will:
 **Avdhut Gogawale**
 <br>
 Cybersecurity Enthusiast 
+
 
 
 
